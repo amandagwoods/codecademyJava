@@ -1,6 +1,5 @@
-public class MathMagic {
-
-    public void calculator(){
+public class Calculator {
+    public Calculator(){
     }
 
     public int add(int a, int b){
@@ -26,11 +25,10 @@ public class MathMagic {
 
     public static void main(String[] agrs){
         Calculator myCalculator = new Calculator();
-        int addition = myCalculator.add(5, 7);
-        System.out.println(addition);
 
-        int subtraction = myCalculator.subtract(45, 11);
-        System.out.println(subtraction);
+        System.out.println("myCalculator.add(5,7) = " + myCalculator.add(5,7));
+
+        System.out.println("myCalculator.subtract(45, 11) = " + myCalculator.subtract(45, 11));
 
 
     }
